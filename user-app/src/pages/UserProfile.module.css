@@ -1,0 +1,44 @@
+.user-profile-container {
+  margin: 2rem auto;
+}
+
+.user-fields-container {
+  flex: 1;
+  display: grid;
+  justify-content: center;
+  padding-top: 2rem;
+  gap: 1rem;
+}
+
+.user-text-fileds {
+  display: grid;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+}
+
+.avatar {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
+.submit-form-btn {
+  width: 100%;
+  text-align: center;
+  max-inline-size: none;
+  justify-content: center;
+}
+
+.no-data {
+  justify-items: center;
+  display: grid;
+  gap: 1rem;
+}

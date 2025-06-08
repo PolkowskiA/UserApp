@@ -1,0 +1,34 @@
+.container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.avatar-preview {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.avatar-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}
+
+.submit-form-btn {
+  width: 100% !important;
+  text-align: center !important;
+  max-inline-size: none !important;
+  justify-content: center !important;
+}

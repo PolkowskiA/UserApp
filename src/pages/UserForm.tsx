@@ -172,6 +172,7 @@ const UserForm = () => {
                   onChange(currentDate);
                 }}
                 locale={userLanguage}
+                maxDate={new Date()}
               >
                 <DatePickerInput
                   id="birthday-input"
@@ -185,7 +186,7 @@ const UserForm = () => {
           />
           <TextArea
             id="about-input"
-            labelText="About"
+            labelText="About*"
             rows={2}
             invalidText={errors.about?.message}
             invalid={!!errors.about?.message}
@@ -201,7 +202,7 @@ const UserForm = () => {
               rules={validators.avatar}
               render={({ field }) => (
                 <FileUploader
-                  labelTitle="Upload avatar"
+                  labelTitle="Upload avatar*"
                   labelDescription="Only images up to 1MB"
                   buttonLabel="Add files"
                   filenameStatus="edit"
@@ -233,9 +234,7 @@ const UserForm = () => {
             <hr />
           </div>
           <div>
-            <Button type="submit" className={styles["submit-form-btn"]}>
-              Submit
-            </Button>
+            <Button type="submit">Submit</Button>
           </div>
         </Stack>
       </Form>

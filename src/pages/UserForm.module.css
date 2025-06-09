@@ -25,10 +25,3 @@
   object-fit: cover;
   border: 1px solid #ccc;
 }
-
-.submit-form-btn {
-  width: 100% !important;
-  text-align: center !important;
-  max-inline-size: none !important;
-  justify-content: center !important;
-}

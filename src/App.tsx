@@ -1,4 +1,3 @@
-// src/App.tsx
 import { BrowserRouter } from "react-router";
 import AppLayout from "./AppLayout";
 import { AppRoutes } from "./routing/AppRoutes";
